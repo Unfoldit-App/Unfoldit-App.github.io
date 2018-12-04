@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+/* @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400"; */
 
 /*
 	Stellar by HTML5 UP
@@ -1643,13 +1643,30 @@
 
 /* Type */
 
+@font-face {
+    font-family: SanFrancisco;
+    src: url("../fonts/SanFranciscoText-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SanFrancisco;
+    font-weight: bolder;
+    src: url("../fonts/SanFranciscoDisplay-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SanFrancisco;
+    font-weight: bold;
+    src: url("../fonts/SanFranciscoDisplay-Semibold.otf") format("opentype");
+}
+
 	body {
 		background-color: #2A52BE;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "SanFrancisco", Helvetica, sans-serif;*/
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1730,7 +1747,7 @@
 		}
 
 	h1 {
-        font-weight: 600;
+        font-weight: bold;
 		font-size: 2.5em;
 		line-height: 1.2;
 	}
