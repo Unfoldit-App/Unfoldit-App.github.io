@@ -3,6 +3,12 @@
     "apps": [],
     "details": [
       {
+        "appID": "X7369V8K74.com.cliffpanos.Unfoldit",
+        "paths": [
+          "/play"
+        ]
+      },
+      {
         "appID": "V7HL83ZN6U.com.cliffpanos.Unfoldit",
         "paths": [
           "/play"
@@ -12,6 +18,7 @@
   },
   "activitycontinuation": {
     "apps": [
+      "X7369V8K74.com.cliffpanos.Unfoldit",
       "V7HL83ZN6U.com.cliffpanos.Unfoldit"
     ]
   }
