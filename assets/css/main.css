@@ -10,6 +10,8 @@
 /* Light Appearance */
 
 :root {
+    color-scheme: light dark;
+    
     --background-color: #EFEFF4;
     --background-accent-color: #FFFFFF;
     --navigation-background-color: #f7f7f7;
